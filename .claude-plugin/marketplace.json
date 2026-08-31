@@ -1,0 +1,14 @@
+{
+  "name": "gumlet-marketplace",
+  "description": "Local marketplace for the Gumlet MCP integration plugin",
+  "owner": {
+    "name": "Gumlet"
+  },
+  "plugins": [
+    {
+      "name": "gumlet-plugin",
+      "source": "./plugins/gumlet-plugin",
+      "description": "Gumlet MCP integration"
+    }
+  ]
+}

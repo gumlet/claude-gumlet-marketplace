@@ -1,0 +1,8 @@
+{
+  "name": "gumlet-plugin",
+  "description": "Gumlet MCP integration",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gumlet"
+  }
+}
