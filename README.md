@@ -18,7 +18,7 @@ This plugin pins port **21342** (`oauth.callbackPort` / `--callback-port 21342`)
 |---|---|
 | Claude.ai, Desktop, mobile, Cowork | `https://claude.ai/api/mcp/auth_callback` |
 | Claude Code (preferred: port-agnostic) | `http://localhost/callback` and `http://127.0.0.1/callback` (any port) |
-| Claude Code (this plugin, exact match) | `http://localhost:8080/callback` and `http://127.0.0.1:8080/callback` |
+| Claude Code (this plugin, exact match) | `http://localhost:21342/callback` and `http://127.0.0.1:21342/callback` |
 
 Do not register `3118` unless you also change `callbackPort` to `3118`. That port is not special.
 
