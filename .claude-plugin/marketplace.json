@@ -1,6 +1,6 @@
 {
   "name": "gumlet-marketplace",
-  "description": "Local marketplace for the Gumlet MCP integration plugin",
+  "description": "Gumlet MCP over OAuth for Claude Code, Claude.ai, Desktop, mobile, and Cowork",
   "owner": {
     "name": "Gumlet"
   },
@@ -8,7 +8,7 @@
     {
       "name": "gumlet-plugin",
       "source": "./plugins/gumlet-plugin",
-      "description": "Gumlet MCP integration"
+      "description": "Gumlet MCP over OAuth for Claude Code and hosted Claude surfaces"
     }
   ]
 }

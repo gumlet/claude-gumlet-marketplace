@@ -1,6 +1,6 @@
 {
   "name": "gumlet-plugin",
-  "description": "Gumlet MCP integration",
+  "description": "Gumlet MCP over OAuth for Claude Code and hosted Claude surfaces",
   "version": "1.0.0",
   "author": {
     "name": "Gumlet"

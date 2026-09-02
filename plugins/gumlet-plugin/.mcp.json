@@ -2,10 +2,12 @@
   "mcpServers": {
     "gumlet": {
       "type": "http",
-      "url": "https://mcp.gumlet.com/mcp",
+      "url": "https://mcp.gumlet.com/mcp/v1",
       "oauth": {
-        "clientId": "YOUR_GUMLET_CLIENT_ID",
-        "callbackPort": 8080
+        "clientId": "428c4418-4b29-488a-87b8-cdab674de611",
+        "callbackPort": 8080,
+        "authServerMetadataUrl": "https://mcp.gumlet.com/.well-known/oauth-authorization-server",
+        "scopes": "gumlet.mcp"
       }
     }
   }
