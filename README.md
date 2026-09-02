@@ -12,7 +12,7 @@ Claude does not give you a per-app callback in a dashboard. Register these on th
 
 `http://localhost:3118/callback` in [Authentication for connectors](https://claude.com/docs/connectors/building/authentication) is an **example**, not a required port. Claude Code binds a random loopback port each session (3118, 48201, …). Anthropic’s [Client ID Metadata Document](https://claude.ai/oauth/claude-code-client-metadata) declares `http://localhost/callback` and `http://127.0.0.1/callback`; the auth server should accept those with the **port ignored** (RFC 8252).
 
-This plugin pins port **8080** (`oauth.callbackPort` / `--callback-port 8080`) so you can give Gumlet one exact URL if they cannot ignore the port.
+This plugin pins port **21342** (`oauth.callbackPort` / `--callback-port 21342`) so you can give Gumlet one exact URL if they cannot ignore the port.
 
 | Surface | Redirect URI |
 |---|---|
@@ -39,7 +39,7 @@ Store the **app** client secret in the OS keychain (masked prompt). Do not put i
 claude mcp add --transport http \
   --client-id 428c4418-4b29-488a-87b8-cdab674de611 \
   --client-secret \
-  --callback-port 8080 \
+  --callback-port 21342 \
   gumlet https://mcp.gumlet.com/mcp/v1
 ```
 
